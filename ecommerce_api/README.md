@@ -53,4 +53,39 @@ Users can create accounts, view products, and (if authenticated) create, update,
 
 ---
 
-## Installation
+## Create virtual environment:
+python3 -m venv venv
+# venv\Scripts\activate   # Windows
+
+
+# Install dependencies:
+pip install -r requirements.txt
+
+
+# Run the development server:
+python manage.py runserver
+
+# Access API at
+Access API at
+
+
+Project tested locally; PythonAnywhere deployment attempted but skipped for now.
+
+Authentication handled via Django default user system.
+
+Future improvements:
+
+Token authentication (JWT)
+
+Product reviews & ratings
+
+Wishlist
+
+Stock management
+
+Discounts / Promotions
+
+
+
+
+
