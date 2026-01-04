@@ -42,6 +42,8 @@ INSTALLED_APPS = [
     'core',
     'products',
     'rest_framework',
+    'gunicorn',
+
 ]
 
 MIDDLEWARE = [
