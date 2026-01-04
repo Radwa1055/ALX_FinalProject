@@ -23,10 +23,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-dw!k#$2m%9k-wchz0yipvx_-)f6$sikn5dfiy_*zi^f#egceyx'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['*']
-ALLOWED_HOSTS = ['<radwa105>.pythonanywhere.com']
+ALLOWED_HOSTS = [
+    'alx-finalproject-3.onrender.com',
+    '127.0.0.1',
+    'localhost',
+]
 
 
 
